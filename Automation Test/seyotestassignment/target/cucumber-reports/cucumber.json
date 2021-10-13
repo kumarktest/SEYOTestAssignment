@@ -1,0 +1,1761 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T12:21:13.030Z",
+        "line": 16,
+        "name": "TS1 and TS2 - Verify response  Changing Instructions only",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts1-and-ts2---verify-response--changing-instructions-only;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 94572800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the roomsize \"5,5\", coords \"1,2\", \"NNESEESWNWW\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,2\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NNESEESWNWW\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6370900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3362313400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67589100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 886286600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Final coords are \"[1, 3]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[1, 3]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15828900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Number of cleaned patches 1 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:17.540Z",
+        "line": 17,
+        "name": "TS1 and TS2 - Verify response  Changing Instructions only",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts1-and-ts2---verify-response--changing-instructions-only;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1122700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the roomsize \"5,5\", coords \"1,2\", \"NESSWS\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,2\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NESSWS\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2254700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37903100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5596600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14624000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Final coords are \"[1, 0]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[1, 0]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c4\u003e but was:\u003c3\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.cleaningPatchesTest.number_of_cleaned_patches_is_displayed(cleaningPatchesTest.java:98)\r\n\tat ✽.Number of cleaned patches 3 is displayed(file:src/test/resources/features/cleaningPatches.feature:13)\r\n",
+              "duration": 21950100,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "Number of cleaned patches 3 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:17.634Z",
+        "line": 29,
+        "name": "TS3 - Verify response Changing Coords only",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts3---verify-response-changing-coords-only;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1028400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the roomsize \"5,5\", coords \"1,1\", \"NNESEESWNWW\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,1\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NNESEESWNWW\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2694600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32561200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1773500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18761100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Final coords are \"[1, 2]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[1, 2]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c3\u003e but was:\u003c2\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.cleaningPatchesTest.number_of_cleaned_patches_is_displayed(cleaningPatchesTest.java:98)\r\n\tat ✽.Number of cleaned patches 2 is displayed(file:src/test/resources/features/cleaningPatches.feature:26)\r\n",
+              "duration": 16809000,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "Number of cleaned patches 2 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:17.721Z",
+        "line": 30,
+        "name": "TS3 - Verify response Changing Coords only",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts3---verify-response-changing-coords-only;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1252600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the roomsize \"5,5\", coords \"1,3\", \"NNESEESWNWW\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,3\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NNESEESWNWW\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2699600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162886300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1771000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15849600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Final coords are \"[1, 3]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[1, 3]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16797000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Number of cleaned patches 1 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:17.935Z",
+        "line": 32,
+        "name": "TS4 - Verify response  Changing patches only",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts4---verify-response--changing-patches-only",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 752500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the roomsize \"5,5\", coords \"1,2\", \"NNESEESWNWW\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,2\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NNESEESWNWW\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1236900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54912300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3256700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14566200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Final coords are \"[1, 3]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[1, 3]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39138700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Number of cleaned patches 1 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:18.058Z",
+        "line": 41,
+        "name": "TS5 - Verify response  Changing patches and instructions only",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts5---verify-response--changing-patches-and-instructions-only",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8380400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the roomsize \"5,5\", coords \"1,2\", \"NENEESESWSWW\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,2\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NENEESESWSWW\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3459300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "4,4",
+                  "2,3",
+                  "3,1"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40951800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1595800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[[1], 1]\u003e but was:\u003c[[2], 1]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)\r\n\tat ✽.Final coords are \"[2, 1]\" are returned(file:src/test/resources/features/cleaningPatches.feature:47)\r\n",
+              "duration": 14673900,
+              "status": "failed"
+            },
+            "line": 47,
+            "name": "Final coords are \"[2, 1]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[2, 1]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 536400,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Number of cleaned patches 3 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:18.133Z",
+        "line": 60,
+        "name": "TS6 - Verify response Changing Coords and Instructions only",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts6---verify-response-changing-coords-and-instructions-only;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6086800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the roomsize \"5,5\", coords \"1,3\", \"NNNNN\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,3\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NNNNN\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5520000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38372200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1303500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[[1], 4]\u003e but was:\u003c[[0], 4]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)\r\n\tat ✽.Final coords are \"[0, 4]\" are returned(file:src/test/resources/features/cleaningPatches.feature:56)\r\n",
+              "duration": 14915900,
+              "status": "failed"
+            },
+            "line": 56,
+            "name": "Final coords are \"[0, 4]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[0, 4]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 725900,
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "Number of cleaned patches 0 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:18.217Z",
+        "line": 61,
+        "name": "TS6 - Verify response Changing Coords and Instructions only",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts6---verify-response-changing-coords-and-instructions-only;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 868800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the roomsize \"5,5\", coords \"1,4\", \"SSSS\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,4\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"SSSS\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1439300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68317100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2085300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23538000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Final coords are \"[1, 0]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[1, 0]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259899100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Number of cleaned patches 1 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:18.589Z",
+        "line": 63,
+        "name": "TS7 - Verifying no of patches cleared - changing coords and patches but instructions fixed",
+        "description": "",
+        "id": "testing-patches-and-final-hover-positions;ts7---verifying-no-of-patches-cleared---changing-coords-and-patches-but-instructions-fixed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 845300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the roomsize \"5,5\", coords \"2,2\", \"NNESEESWNWW\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"2,2\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NNESEESWNWW\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1892900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,3",
+                  "2,4",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24078600,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1232700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "status code 201 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[[1], 3]\u003e but was:\u003c[[2], 3]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)\r\n\tat ✽.Final coords are \"[2, 3]\" are returned(file:src/test/resources/features/cleaningPatches.feature:69)\r\n",
+              "duration": 13600400,
+              "status": "failed"
+            },
+            "line": 69,
+            "name": "Final coords are \"[2, 3]\" are returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[2, 3]\"",
+                  "offset": 17
+                }
+              ],
+              "location": "cleaningPatchesTest.final_coords_are_are_returned(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 636300,
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "Number of cleaned patches 1 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                }
+              ],
+              "location": "cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Patches and final hover positions",
+    "description": "  As a user\n  I give the instruction, room size, patches location\n  Hoover should clear the patches and move to final position",
+    "id": "testing-patches-and-final-hover-positions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/cleaningPatches.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T12:21:18.630Z",
+        "line": 15,
+        "name": "Wrong Instructions provided - error message displayed",
+        "description": "",
+        "id": "testing--error-message-display;wrong-instructions-provided---error-message-displayed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 850800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the roomsize \"5,5\", coords \"4,4\", \"NN\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"4,4\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NN\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1263600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15657300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.cleaningPatchesTest.status_code_is_returned(cleaningPatchesTest.java:86)\r\n\tat ✽.status code 400 is returned(file:src/test/resources/features/errorDisplay.feature:11)\r\n",
+              "duration": 1289900,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "status code 400 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 461900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Error message should display as \"Wrong instructions display\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wrong instructions display\"",
+                  "offset": 32
+                }
+              ],
+              "location": "cleaningPatchesTest.error_message_should_display_as(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:18.673Z",
+        "line": 27,
+        "name": "Robot must placed inside the room - error message displayed",
+        "description": "",
+        "id": "testing--error-message-display;robot-must-placed-inside-the-room---error-message-displayed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 542600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the roomsize \"5,5\", coords \"1,6\", \"NN\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,6\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NN\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1331400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21993900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4773700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "status code 400 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1183100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Error message should display as \"Robot must placed inside the room.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Robot must placed inside the room.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "cleaningPatchesTest.error_message_should_display_as(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:18.708Z",
+        "line": 28,
+        "name": "Robot must placed inside the room - error message displayed",
+        "description": "",
+        "id": "testing--error-message-display;robot-must-placed-inside-the-room---error-message-displayed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1514100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the roomsize \"5,5\", coords \"1,5\", \"NN\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,5\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NN\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3931600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21579800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.cleaningPatchesTest.status_code_is_returned(cleaningPatchesTest.java:86)\r\n\tat ✽.status code 400 is returned(file:src/test/resources/features/errorDisplay.feature:23)\r\n",
+              "duration": 1422500,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "status code 400 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 524000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Error message should display as \"Robot must placed inside the room.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Robot must placed inside the room.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "cleaningPatchesTest.error_message_should_display_as(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:18.747Z",
+        "line": 29,
+        "name": "Robot must placed inside the room - error message displayed",
+        "description": "",
+        "id": "testing--error-message-display;robot-must-placed-inside-the-room---error-message-displayed;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 859800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the roomsize \"5,5\", coords \"6,1\", \"NN\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"6,1\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NN\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1616300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,0",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21092600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1261300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "status code 400 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 663200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Error message should display as \"Robot must placed inside the room.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Robot must placed inside the room.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "cleaningPatchesTest.error_message_should_display_as(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T12:21:18.778Z",
+        "line": 41,
+        "name": "Patches must be placed inside the room - error message displayed",
+        "description": "",
+        "id": "testing--error-message-display;patches-must-be-placed-inside-the-room---error-message-displayed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 811800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the roomsize \"5,5\", coords \"1,1\", \"NNESEESWNWW\" as instructions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5,5\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"1,1\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"NNESEESWNWW\"",
+                  "offset": 34
+                }
+              ],
+              "location": "cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1332100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the patches listofpatches",
+            "match": {
+              "location": "cleaningPatchesTest.the_patches_listofpatches(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1,5",
+                  "2,2",
+                  "2,3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21818900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "post request is made on \"http://localhost:8080/v1/cleaning-sessions\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8080/v1/cleaning-sessions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "cleaningPatchesTest.post_request_is_made_on_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1091700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "status code 400 is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 12
+                }
+              ],
+              "location": "cleaningPatchesTest.status_code_is_returned(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1502900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Error message should display as \"Patches must be placed inside the room.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Patches must be placed inside the room.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "cleaningPatchesTest.error_message_should_display_as(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing  Error Message display",
+    "description": "  As a user\n  I gave wrong  instructions or patches or hoover  location\n  Error code and error message should be displayed",
+    "id": "testing--error-message-display",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/errorDisplay.feature",
+    "tags": []
+  }
+]

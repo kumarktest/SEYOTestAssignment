@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRunner" time="5.037" tests="14" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="idea.version" value="2018.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\seyotestassignment"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\seyotestassignment"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\padma\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.5\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\padma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.6.0;C:\Program Files\apache-maven-3.6.0\bin;;C:\Users\padma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\padma\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\padma"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="padma"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.5 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TS1 and TS2 - Verify response  Changing Instructions only" classname="Testing Patches and final hover positions" time="4.51"/>
+  <testcase name="TS1 and TS2 - Verify response  Changing Instructions only" classname="Testing Patches and final hover positions" time="0.094">
+    <failure message="expected:&lt;4&gt; but was:&lt;3&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.cleaningPatchesTest.number_of_cleaned_patches_is_displayed(cleaningPatchesTest.java:98)
+	at ✽.Number of cleaned patches 3 is displayed(file:src/test/resources/features/cleaningPatches.feature:13)
+]]></failure>
+    <system-out><![CDATA[
+  Scenario Outline: TS1 and TS2 - Verify response  Changing Instructions only          # src/test/resources/features/cleaningPatches.feature:17
+    Given the roomsize "5,5", coords "1,2", "NESSWS" as instructions                   # cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)
+1,0
+2,2
+2,3
+    And the patches listofpatches                                                      # cleaningPatchesTest.the_patches_listofpatches(DataTable)
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint # cleaningPatchesTest.post_request_is_made_on_endpoint(String)
+{
+    "coords": [
+        1,
+        0
+    ],
+    "patches": 4
+}
+    Then status code 201 is returned                                                   # cleaningPatchesTest.status_code_is_returned(int)
+    And Final coords are "[1, 0]" are returned                                         # cleaningPatchesTest.final_coords_are_are_returned(String)
+    And Number of cleaned patches 3 is displayed                                       # cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)
+      java.lang.AssertionError: expected:<4> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.cleaningPatchesTest.number_of_cleaned_patches_is_displayed(cleaningPatchesTest.java:98)
+	at ?.Number of cleaned patches 3 is displayed(file:src/test/resources/features/cleaningPatches.feature:13)
+
+]]></system-out>
+  </testcase>
+  <testcase name="TS3 - Verify response Changing Coords only" classname="Testing Patches and final hover positions" time="0.087">
+    <failure message="expected:&lt;3&gt; but was:&lt;2&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<3> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.cleaningPatchesTest.number_of_cleaned_patches_is_displayed(cleaningPatchesTest.java:98)
+	at ✽.Number of cleaned patches 2 is displayed(file:src/test/resources/features/cleaningPatches.feature:26)
+]]></failure>
+    <system-out><![CDATA[
+  Scenario Outline: TS3 - Verify response Changing Coords only # src/test/resources/features/cleaningPatches.feature:19
+    Given the roomsize "<roomsize>", coords "<cords>", "<instructions>" as instructions
+    And the patches listofpatches
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint
+    Then status code <statuscode> is returned
+    And Final coords are "<finalCoords>" are returned
+    And Number of cleaned patches <patchcount> is displayed
+
+    Examples: 
+
+  Scenario Outline: TS3 - Verify response Changing Coords only                         # src/test/resources/features/cleaningPatches.feature:29
+    Given the roomsize "5,5", coords "1,1", "NNESEESWNWW" as instructions              # cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)
+1,0
+2,2
+2,3
+    And the patches listofpatches                                                      # cleaningPatchesTest.the_patches_listofpatches(DataTable)
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint # cleaningPatchesTest.post_request_is_made_on_endpoint(String)
+{
+    "coords": [
+        1,
+        2
+    ],
+    "patches": 3
+}
+    Then status code 201 is returned                                                   # cleaningPatchesTest.status_code_is_returned(int)
+    And Final coords are "[1, 2]" are returned                                         # cleaningPatchesTest.final_coords_are_are_returned(String)
+    And Number of cleaned patches 2 is displayed                                       # cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)
+      java.lang.AssertionError: expected:<3> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.cleaningPatchesTest.number_of_cleaned_patches_is_displayed(cleaningPatchesTest.java:98)
+	at ?.Number of cleaned patches 2 is displayed(file:src/test/resources/features/cleaningPatches.feature:26)
+
+]]></system-out>
+  </testcase>
+  <testcase name="TS3 - Verify response Changing Coords only" classname="Testing Patches and final hover positions" time="0.214"/>
+  <testcase name="TS4 - Verify response  Changing patches only" classname="Testing Patches and final hover positions" time="0.139"/>
+  <testcase name="TS5 - Verify response  Changing patches and instructions only" classname="Testing Patches and final hover positions" time="0.059">
+    <failure message="expected:&lt;[[1], 1]&gt; but was:&lt;[[2], 1]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[[1], 1]> but was:<[[2], 1]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)
+	at ✽.Final coords are "[2, 1]" are returned(file:src/test/resources/features/cleaningPatches.feature:47)
+]]></failure>
+    <system-out><![CDATA[
+  Scenario: TS5 - Verify response  Changing patches and instructions only              # src/test/resources/features/cleaningPatches.feature:41
+    Given the roomsize "5,5", coords "1,2", "NENEESESWSWW" as instructions             # cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)
+4,4
+2,3
+3,1
+    And the patches listofpatches                                                      # cleaningPatchesTest.the_patches_listofpatches(DataTable)
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint # cleaningPatchesTest.post_request_is_made_on_endpoint(String)
+{
+    "coords": [
+        1,
+        1
+    ],
+    "patches": 3
+}
+    Then status code 201 is returned                                                   # cleaningPatchesTest.status_code_is_returned(int)
+    And Final coords are "[2, 1]" are returned                                         # cleaningPatchesTest.final_coords_are_are_returned(String)
+      org.junit.ComparisonFailure: expected:<[[1], 1]> but was:<[[2], 1]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)
+	at ?.Final coords are "[2, 1]" are returned(file:src/test/resources/features/cleaningPatches.feature:47)
+
+    And Number of cleaned patches 3 is displayed                                       # cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)
+]]></system-out>
+  </testcase>
+  <testcase name="TS6 - Verify response Changing Coords and Instructions only" classname="Testing Patches and final hover positions" time="0.084">
+    <failure message="expected:&lt;[[1], 4]&gt; but was:&lt;[[0], 4]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[[1], 4]> but was:<[[0], 4]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)
+	at ✽.Final coords are "[0, 4]" are returned(file:src/test/resources/features/cleaningPatches.feature:56)
+]]></failure>
+    <system-out><![CDATA[
+  Scenario Outline: TS6 - Verify response Changing Coords and Instructions only # src/test/resources/features/cleaningPatches.feature:50
+    Given the roomsize "<roomsize>", coords "<cords>", "<instructions>" as instructions
+    And the patches listofpatches
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint
+    Then status code <statuscode> is returned
+    And Final coords are "<finalCoords>" are returned
+    And Number of cleaned patches <patchcount> is displayed
+
+    Examples: 
+
+  Scenario Outline: TS6 - Verify response Changing Coords and Instructions only        # src/test/resources/features/cleaningPatches.feature:60
+    Given the roomsize "5,5", coords "1,3", "NNNNN" as instructions                    # cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)
+1,0
+2,2
+2,3
+    And the patches listofpatches                                                      # cleaningPatchesTest.the_patches_listofpatches(DataTable)
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint # cleaningPatchesTest.post_request_is_made_on_endpoint(String)
+{
+    "coords": [
+        1,
+        4
+    ],
+    "patches": 0
+}
+    Then status code 201 is returned                                                   # cleaningPatchesTest.status_code_is_returned(int)
+    And Final coords are "[0, 4]" are returned                                         # cleaningPatchesTest.final_coords_are_are_returned(String)
+      org.junit.ComparisonFailure: expected:<[[1], 4]> but was:<[[0], 4]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)
+	at ?.Final coords are "[0, 4]" are returned(file:src/test/resources/features/cleaningPatches.feature:56)
+
+    And Number of cleaned patches 0 is displayed                                       # cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)
+]]></system-out>
+  </testcase>
+  <testcase name="TS6 - Verify response Changing Coords and Instructions only" classname="Testing Patches and final hover positions" time="0.372"/>
+  <testcase name="TS7 - Verifying no of patches cleared - changing coords and patches but instructions fixed" classname="Testing Patches and final hover positions" time="0.041">
+    <failure message="expected:&lt;[[1], 3]&gt; but was:&lt;[[2], 3]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[[1], 3]> but was:<[[2], 3]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)
+	at ✽.Final coords are "[2, 3]" are returned(file:src/test/resources/features/cleaningPatches.feature:69)
+]]></failure>
+    <system-out><![CDATA[
+  Scenario: TS7 - Verifying no of patches cleared - changing coords and patches but instructions fixed # src/test/resources/features/cleaningPatches.feature:63
+    Given the roomsize "5,5", coords "2,2", "NNESEESWNWW" as instructions                              # cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)
+1,3
+2,4
+2,3
+    And the patches listofpatches                                                                      # cleaningPatchesTest.the_patches_listofpatches(DataTable)
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint                 # cleaningPatchesTest.post_request_is_made_on_endpoint(String)
+{
+    "coords": [
+        1,
+        3
+    ],
+    "patches": 3
+}
+    Then status code 201 is returned                                                                   # cleaningPatchesTest.status_code_is_returned(int)
+    And Final coords are "[2, 3]" are returned                                                         # cleaningPatchesTest.final_coords_are_are_returned(String)
+      org.junit.ComparisonFailure: expected:<[[1], 3]> but was:<[[2], 3]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.cleaningPatchesTest.final_coords_are_are_returned(cleaningPatchesTest.java:92)
+	at ?.Final coords are "[2, 3]" are returned(file:src/test/resources/features/cleaningPatches.feature:69)
+
+    And Number of cleaned patches 1 is displayed                                                       # cleaningPatchesTest.number_of_cleaned_patches_is_displayed(int)
+]]></system-out>
+  </testcase>
+  <testcase name="Wrong Instructions provided - error message displayed" classname="Testing  Error Message display" time="0.043">
+    <failure message="expected:&lt;201&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<201> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.cleaningPatchesTest.status_code_is_returned(cleaningPatchesTest.java:86)
+	at ✽.status code 400 is returned(file:src/test/resources/features/errorDisplay.feature:11)
+]]></failure>
+    <system-out><![CDATA[
+Feature: Testing  Error Message display
+  As a user
+  I gave wrong  instructions or patches or hoover  location
+  Error code and error message should be displayed
+
+  Scenario Outline: Wrong Instructions provided - error message displayed # src/test/resources/features/errorDisplay.feature:6
+    Given the roomsize "<roomsize>", coords "<cords>", "<instructions>" as instructions
+    And the patches listofpatches
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint
+    Then status code <statuscode> is returned
+    And Error message should display as "<errorMessage>"
+
+    Examples: 
+
+  Scenario Outline: Wrong Instructions provided - error message displayed              # src/test/resources/features/errorDisplay.feature:15
+    Given the roomsize "5,5", coords "4,4", "NN" as instructions                       # cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)
+1,0
+2,2
+2,3
+    And the patches listofpatches                                                      # cleaningPatchesTest.the_patches_listofpatches(DataTable)
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint # cleaningPatchesTest.post_request_is_made_on_endpoint(String)
+{
+    "coords": [
+        4,
+        6
+    ],
+    "patches": 0
+}
+    Then status code 400 is returned                                                   # cleaningPatchesTest.status_code_is_returned(int)
+      java.lang.AssertionError: expected:<201> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.cleaningPatchesTest.status_code_is_returned(cleaningPatchesTest.java:86)
+	at ?.status code 400 is returned(file:src/test/resources/features/errorDisplay.feature:11)
+
+    And Error message should display as "Wrong instructions display"                   # cleaningPatchesTest.error_message_should_display_as(String)
+]]></system-out>
+  </testcase>
+  <testcase name="Robot must placed inside the room - error message displayed" classname="Testing  Error Message display" time="0.04"/>
+  <testcase name="Robot must placed inside the room - error message displayed" classname="Testing  Error Message display" time="0.033">
+    <failure message="expected:&lt;201&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<201> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.cleaningPatchesTest.status_code_is_returned(cleaningPatchesTest.java:86)
+	at ✽.status code 400 is returned(file:src/test/resources/features/errorDisplay.feature:23)
+]]></failure>
+    <system-out><![CDATA[
+  Scenario Outline: Robot must placed inside the room - error message displayed        # src/test/resources/features/errorDisplay.feature:28
+    Given the roomsize "5,5", coords "1,5", "NN" as instructions                       # cleaningPatchesTest.the_roomsize_coords_patches_and_as_instructions(String,String,String)
+1,0
+2,2
+2,3
+    And the patches listofpatches                                                      # cleaningPatchesTest.the_patches_listofpatches(DataTable)
+    When post request is made on "http://localhost:8080/v1/cleaning-sessions" endpoint # cleaningPatchesTest.post_request_is_made_on_endpoint(String)
+{
+    "coords": [
+        1,
+        5
+    ],
+    "patches": 0
+}
+    Then status code 400 is returned                                                   # cleaningPatchesTest.status_code_is_returned(int)
+      java.lang.AssertionError: expected:<201> but was:<400>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.cleaningPatchesTest.status_code_is_returned(cleaningPatchesTest.java:86)
+	at ?.status code 400 is returned(file:src/test/resources/features/errorDisplay.feature:23)
+
+    And Error message should display as "Robot must placed inside the room."           # cleaningPatchesTest.error_message_should_display_as(String)
+]]></system-out>
+  </testcase>
+  <testcase name="Robot must placed inside the room - error message displayed" classname="Testing  Error Message display" time="0.031"/>
+  <testcase name="Patches must be placed inside the room - error message displayed" classname="Testing  Error Message display" time="0.034"/>
+</testsuite>
