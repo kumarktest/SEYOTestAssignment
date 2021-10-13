@@ -29,7 +29,7 @@ Repository structure contains below
 
 ### Missing Requirements
 1. How many maximum number of patches can be given?
-2. What is the Minium and Maximun Length of Instrcutions that was allowed?
+2. What is the Minimum and Maximum Length of Instrcutions that was allowed?
 3. What error messages should be displayed?
 	
 ## Manual Test folder
